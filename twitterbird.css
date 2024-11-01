@@ -1,0 +1,49 @@
+/*
+Twitter Bird
+Version: 1.0.0
+Developed by Rashid Rupani from Fast Designing 
+                      (http://www.fastdesiging.com)
+
+Follow me on Twitter
+http://www.twitter.com/ImtheKiller
+http://www.twitter.com/fastdesigning
+
+*/
+
+.twitterbird {
+	margin-top:-40px;
+	margin-bottom:-30px;
+	width:150px;
+	height:200px;
+	background:transparent url(twitterbird.png) no-repeat;
+	background-position:bottom left;
+	padding-left:10px;
+	position:relative;
+	z-index:10000;
+}
+.twitterbirdfc {
+	margin-top:-40px;
+	margin-bottom:-30px;
+	width:150px;
+	height:200px;
+	background:transparent url(twitterbird.png) no-repeat;
+	background-position:bottom right;
+	right:14px;
+	padding-left:10px;
+	position:relative;
+	z-index:10000;
+}
+.twitbirdfollwrs a {
+	float:right;
+	font-size:10px;
+	font-family:verdana;
+	width:60px;
+	text-decoration:none;
+	padding-left:20px;
+	padding-top:25px;
+	position:absolute;
+}
+.twitterbird .twitbirdfollwrs {display:none;}
+.twitbird, .twitbird a {width:178px;font-family:verdana;font-size:7px;text-decoration:none;color:#000;text-align:center;position:abolute;
+z-index:10000;padding-top:-27px;}
+
